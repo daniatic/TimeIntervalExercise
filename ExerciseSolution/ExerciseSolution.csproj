@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interval.cs" />
-    <Compile Include="ParallelIntervalWalker.cs" />
+    <Compile Include="ExerciseSolutionMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="TestData.cs" />

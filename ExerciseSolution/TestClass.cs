@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ExerciseParallelTimeIntervals {
+namespace ExerciseSolution {
   [TestFixture]
   internal class TestClass {
 
@@ -25,7 +25,7 @@ namespace ExerciseParallelTimeIntervals {
         }
       }
       // act
-      List<Interval> result = ParallelIntervalWalker.GetAllIntervals(intervals1, intervals2);
+      List<Interval> result = ExerciseSolutionMain.GetAllIntervals(intervals1, intervals2);
       // assert
       Assert.That(result, Is.EqualTo(intervals2));
     }
@@ -33,7 +33,7 @@ namespace ExerciseParallelTimeIntervals {
     [TestCaseSource(typeof(TestData), nameof(TestData.DefinedIntervalCollections))]
     public void TestGetAllIntervalsWithDefinedIntervalCollections(List<Interval> intervals1, List<Interval> intervals2, List<Interval> expectedResult) {
       // arrange & act
-      List<Interval> result = ParallelIntervalWalker.GetAllIntervals(intervals1, intervals2);
+      List<Interval> result = ExerciseSolutionMain.GetAllIntervals(intervals1, intervals2);
       // assert
       Assert.That(result, Is.EqualTo(expectedResult));
     }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExerciseParallelTimeIntervals {
+namespace Exercise {
   public class Interval : IEquatable<Interval> {
 
     public Interval(DateTime start, DateTime end) {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ExerciseParallelTimeIntervals {
+namespace ExerciseSolution {
   internal class TestData {
     internal static object[] DefinedIntervalCollections = new object[] {
       new object[] {
